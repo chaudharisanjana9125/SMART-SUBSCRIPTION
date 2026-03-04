@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SubSense - Smart Subscription Tracker
 
 Full-stack web app using:
@@ -52,3 +53,6 @@ From project root:
 ## Notes
 - SMS and Email delivery are Twilio-ready style UI flows, simulated in-app for v1.
 - Phone verification returns a demo code in API response for local testing.
+=======
+# SMART-SUBSCRIPTION
+>>>>>>> 8981bf3c0f9fe93d6cfec9b6a9546a3440d10081
