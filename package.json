@@ -1,0 +1,12 @@
+{
+  "name": "subsense",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix clients run dev",
+    "start": "npm --prefix server run start",
+    "start:client": "npm --prefix clients run start"
+  }
+}
