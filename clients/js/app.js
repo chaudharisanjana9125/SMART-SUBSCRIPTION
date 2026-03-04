@@ -1,5 +1,8 @@
 const app = document.getElementById('app');
-const API_BASE = window.location.port === '3000' ? 'http://localhost:5000/api' : '/api';
+const API_BASE =
+  window.location.hostname === 'localhost'
+    ? 'http://localhost:5000/api'
+    : 'https://smart-subscription-185z.onrender.com/api';
 const TOKEN_KEY = 'subsense_token';
 const FLASH_KEY = 'subsense_flash';
 
